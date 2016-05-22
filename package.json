@@ -1,0 +1,24 @@
+{
+  "name": "@derekdon/npm_localstorage",
+  "version": "1.0.0",
+  "description": "A localstorage proxy with utility methods",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/derekdon/npm-localstorage.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Derek Donnelly",
+    "email": "derek@derekdonnelly.com"
+  },
+  "maintainers": [
+    {
+      "name": "derekdon",
+      "email": "derek@derekdonnelly.com"
+    }
+  ],
+  "license": "UNLICENSED"
+}
