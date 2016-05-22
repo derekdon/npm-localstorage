@@ -1,5 +1,5 @@
 {
-  "name": "@derekdon/npm_localstorage",
+  "name": "@derekdon/npm-localstorage",
   "version": "1.0.0",
   "description": "A localstorage proxy with utility methods",
   "main": "index.js",
