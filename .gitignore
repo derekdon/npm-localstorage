@@ -6,3 +6,5 @@ node_modules
 .settings
 *.log
 dist/
+lib
+npm-debug.log
