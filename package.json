@@ -1,6 +1,6 @@
 {
   "name": "@derekdon/npm-localstorage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A localstorage proxy with utility methods",
   "main": "lib/index.js",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "babel --presets es2015,stage-0 -d lib/ src/",
+    "compile": "babel --presets es2015,stage-0 --plugins add-module-exports -d lib/ src/",
     "prepublish": "npm run compile"
   },
   "author": {
@@ -25,6 +25,7 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "babel-cli": "^6.9.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-0": "^6.5.0"
   }
