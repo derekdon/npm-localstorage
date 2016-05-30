@@ -1,6 +1,6 @@
 {
   "name": "@derekdon/npm-localstorage",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A localstorage proxy with utility methods",
   "main": "lib/index.js",
   "repository": {

@@ -1,8 +1,17 @@
 'use strict';
 
 const AVAILABLE = typeof localStorage !== 'undefined';
+const KEY = {
+    DEVICE_INT_NUMBER: 'device-international-number',
+    SESSION: 'auth-session',
+    TOKEN: 'auth-token'
+};
 
 export default class LocalStorage {
+
+    static get KEY() {
+        return KEY;
+    }
 
     constructor(namespace) {
         this.namespace = namespace;
